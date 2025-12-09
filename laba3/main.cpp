@@ -1,8 +1,6 @@
 #include <iostream>
 #include <windows.h>
-#include <vector>
 #include <string>
-#include <clocale>
 using namespace std;
 
 class ProgramError {

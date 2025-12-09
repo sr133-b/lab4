@@ -108,7 +108,6 @@ int main() {
     cout << "\nДоступ через оператор []:" << endl;
     testObjects[0]->print();
 
-    // Явное удаление объектов
     for (int i = 0; i < errors.size(); i++) delete errors[i];
     for (int i = 0; i < testObjects.size(); i++) delete testObjects[i];
     for (int i = 0; i < anotherObjects.size(); i++) delete anotherObjects[i];
